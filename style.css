@@ -1,0 +1,29 @@
+.hidden {
+    display: none;
+}
+
+.parrot__chosen {
+    width: 140px;
+    height: 160px;
+}
+
+.parrot__feature {
+    display: inline;
+    font-weight: bold;
+}
+
+.parrot__popup {
+    width: 40%;
+    background: white;
+}
+
+.parrot__orders {
+    margin-left: 70%;
+}
+
+/* #parrot__popup{
+    border: 2px solid black;
+    padding: 30px;
+    width: 20px;
+    visibility: hidden;
+} */

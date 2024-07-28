@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="64x64" rel="icon" href="img/budgieIcon.jpeg">
+    <title>Angry Bird</title>
+</head>
+<body>
+    <head>
+        <h1>Online shop "Angry Bird"</h1>
+        <div>
+            <button class="parrot__orders">Show orders</button>
+        </div>
+    </head>
+    <main>
+        <div class="parrot__breeds--wrap">
+            <h2>List of parrot breeds</h2>
+            <ul class="parrot__breeds">
+                <li>Budgies</li>
+                <li>Cocktails</li>
+                <li>Macaws</li>
+                <li>African Grey Parrots</li>
+            </ul>
+        </div>
+        <div class="parrot__single--wrapper hidden">
+            <h2>Single Parrots</h2>
+            <ul class="parrot__single">
+                <ul class="hidden">Budgies
+                    <li id="1">Snow</li>
+                    <li id="2">Sunny</li>
+                    <li id="3">Rhone</li>
+                    <li id="4">Pearl</li>
+                    <li id="5">Kolia</li>
+                </ul>
+                <ul class="hidden">Cocktails
+                    <li id="6">Rocky</li>
+                    <li id="7">Jerry</li>
+                    <li id="8">Zina</li>
+                    <li id="9">Ricky</li>
+                    <li id="10">Fuckuchan</li>
+                </ul>
+                <ul class="hidden">Macaws
+                    <li id="11">Capri</li>
+                    <li id="12">Jankie</li>
+                    <li id="13">Bob</li>
+                    <li id="14">Kim</li>
+                    <li id="15">Lana</li>
+                </ul>
+                <ul class="hidden">African Grey Parrots
+                    <li id="16">Kara</li>
+                    <li id="17">Rob</li>
+                    <li id="18">Kitchen</li>
+                    <li id="19">Karma</li>
+                    <li id="20">Pete</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <div id="selectedProduct"></div>
+        <div id="parrot__popup"></div>
+        <div class="hidden" id="parrotOrdersList">
+            <h3>My orders:</h3>
+        </div>
+
+    </main>
+    
+    <script src="parrots.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
